@@ -50,7 +50,11 @@ This project is a multi-page responsive website built for WEDE5020 POE Part 2. I
 - Accessibility features: focus outlines, semantic HTML, labeled forms
 
 ## Screenshots
+Desktop view screenshot
 
+Tablet view screenshot
+
+Mobile view screenshot
 
 
 Tested on:
