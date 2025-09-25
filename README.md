@@ -66,3 +66,9 @@ Tested on:
 - Mobile: ≤600px
 - Tablet: 601px–900px
 - Desktop: ≥901px
+
+  <img width="1366" height="768" alt="Desktop" src="https://github.com/user-attachments/assets/a4291bf3-d13b-4ead-9dc2-1fe021be8760" />
+  <img width="250" height="571" alt="Mobile" src="https://github.com/user-attachments/assets/d6b9d5f5-327b-431e-b06b-10b7c2e2e634" />
+
+<img width="381" height="557" alt="Tablet" src="https://github.com/user-attachments/assets/1cdb2320-c5cf-4f8a-becb-b8f02853bc9d" />
+
