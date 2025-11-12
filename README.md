@@ -1,4 +1,4 @@
-# ST10425918_WEDE5020_PART2
+# ST10425918_WEDE5020_PART3
 ## PART 2 README
 Reference
 Screenshots
@@ -71,4 +71,15 @@ Tested on:
   <img width="250" height="571" alt="Mobile" src="https://github.com/user-attachments/assets/d6b9d5f5-327b-431e-b06b-10b7c2e2e634" />
 
 <img width="381" height="557" alt="Tablet" src="https://github.com/user-attachments/assets/1cdb2320-c5cf-4f8a-becb-b8f02853bc9d" />
+
+## Part 3 Entries
+- 2025-11-12 — Part3: Added lightbox gallery and service filter (HTML/JS), added Google Maps embed to `contact.html`.
+- 2025-11-12 — Part3: Added response divs and improved form JS (validation + Formspree support placeholder).
+- 2025-11-12 — Part3: Created `robots.txt` and `sitemap.xml` and resolved HTML markup issues in `services.html`.
+
+### How to test locally
+1. Open `css/services.html` in a browser and click gallery images to open the lightbox.
+2. Use the service filter dropdown to filter articles.
+3. Open `css/contact.html` to view the embedded Google Map and submit the contact form (Formspree requires a real form id).
+4. Open `css/enquiry.html` and submit the enquiry form to see inline response messages.
 
