@@ -12,3 +12,12 @@
 - 2025-09-13 — Final polish: Updated README and completed rubric checklist. 
 
 
+### Changelog entries (Part 3)
+- 2025-11-12 — Implemented lightbox gallery, service filter, responsive maps, form type selection and validation, and CSS polish.
+- 2025-11-12 — Added interactive lightbox gallery to `services.html` and supporting JS/CSS for accessible enlarged images.
+- 2025-11-12 — Implemented service filter dropdown on `services.html` to filter articles by category using `data-service` attributes.
+- 2025-11-12 — Embedded responsive Google Maps iframe on `contact.html` and `enquiry.html` with `.map-responsive` CSS helper.
+- 2025-11-12 — Updated forms: added `message_type` select (Sponsor, Personal, Other), inline validation, and response regions; wired `contact.html` and `enquiry.html` to Formspree endpoint.
+- 2025-11-12 — Added CSS polish: gallery grid, lightbox styles, form response styles, and UI spacing improvements in `css/css/style.css`.
+- 2025-11-12 — Added `robots.txt` and `sitemap.xml` templates to the site folder for basic SEO/crawl control.
+- 2025-11-12 — Fixed HTML markup issues in `services.html` and updated README with Part 3 testing instructions.
