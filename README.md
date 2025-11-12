@@ -73,13 +73,31 @@ Tested on:
 <img width="381" height="557" alt="Tablet" src="https://github.com/user-attachments/assets/1cdb2320-c5cf-4f8a-becb-b8f02853bc9d" />
 
 ## Part 3 Entries
-- 2025-11-12 — Part3: Added lightbox gallery and service filter (HTML/JS), added Google Maps embed to `contact.html`.
-- 2025-11-12 — Part3: Added response divs and improved form JS (validation + Formspree support placeholder).
-- 2025-11-12 — Part3: Created `robots.txt` and `sitemap.xml` and resolved HTML markup issues in `services.html`.
+## Part 3 — Enhancements (2025-11-12)
+This section documents the Part 3 additions: interactivity, UX polish, forms integration, and SEO aids.
 
-### How to test locally
-1. Open `css/services.html` in a browser and click gallery images to open the lightbox.
-2. Use the service filter dropdown to filter articles.
-3. Open `css/contact.html` to view the embedded Google Map and submit the contact form (Formspree requires a real form id).
-4. Open `css/enquiry.html` and submit the enquiry form to see inline response messages.
+### Summary of features added
+- Lightbox gallery: Clickable gallery images open in an overlay for larger view. Implemented with minimal JS/CSS for accessibility and performance.
+- Service filter: Dropdown on `services.html` to filter service articles by category (training, mentorship, networking, resources, consulting).
+- Responsive Google Maps embeds: Added to `contact.html` and `enquiry.html` using a responsive iframe wrapper.
+- Form improvements: Both enquiry and contact forms now require a Message Type (Sponsor, Personal, Other). Inline validation and response messaging added. `contact.html` and `enquiry.html` post to Formspree (placeholder/public endpoint) for easy email handling.
+- CSS polish: Gallery grid, lightbox styles, responsive map container, form response styling, and small UI improvements.
+- SEO / crawl: Added `robots.txt` and `sitemap.xml` (basic templates) to the site folder.
+
+### Files changed / added (key)
+- css/js/scripts.js — Added lightbox, gallery filter, form validation/submit handlers, and message-type validation.
+- css/services.html — Added `data-service` attributes to articles, fixed markup, and wired gallery/filter.
+- css/contact.html — Added responsive Google Maps iframe, message-type select, contact response div, Formspree action.
+- css/enquiry.html — Added message-type select, enquiry response div, Formspree action, same map embed.
+- css/css/style.css — Added gallery grid, lightbox styles, responsive map styles, response message styling, and small UI tweaks.
+- css/robots.txt — New: basic robots file.
+- css/sitemap.xml — New: basic sitemap template.
+- css/ST10425918_AphiweGans_WEDE5020_PART2/README.md — Updated Part 3 notes and testing instructions.
+
+### Design decisions & notes
+- Progressive enhancement: Forms include native `action` attributes so they work when JS is disabled; JS adds inline validation and optionally submits via fetch for a smoother UX.
+- Accessibility: Response regions use `role="status"` and `aria-live="polite"`. Lightbox can be closed by clicking outside the image. (I can add Esc-to-close keyboard support if desired.)
+- Formspree: `contact.html` and `enquiry.html` use a Formspree endpoint. Replace `https://formspree.io/f/mpwkzgwd` with your own endpoint if needed.
+
+
 
